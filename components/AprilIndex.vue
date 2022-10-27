@@ -26,7 +26,6 @@
     },
     mounted() {
       this.$_april_index_loadCatalog(this.currentPage)
-      console.log(this.$store.getters['server/getUrlApi'])
     },
     methods: {
       async $_april_index_loadCatalog(number){
