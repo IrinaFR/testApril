@@ -1,0 +1,11 @@
+@import "./_colors.scss";
+@import "./_person.scss";
+@import "./_helpers.scss";
+
+body{
+  background: $background;
+}
+main{
+  padding: 50px 0;
+}
+

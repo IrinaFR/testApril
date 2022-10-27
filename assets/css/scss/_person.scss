@@ -1,0 +1,29 @@
+.personImg{
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  img {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.statusLife{
+  width: fit-content;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  margin: 10px 0;
+  &.Alive{
+    background: $green;
+  }
+  &.Dead{
+    background: $red;
+  }
+  &.unknown{
+    background: $orange;
+  }
+}
